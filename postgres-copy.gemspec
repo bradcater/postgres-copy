@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "pg"
   s.add_dependency "activerecord", '>= 3.0.0'
   s.add_dependency "rails", '>= 3.0.0'
-  s.add_dependency "responders"
+  s.add_dependency "responders", "<= 0.6.5"
   s.add_development_dependency "bundler"
   s.add_development_dependency "rdoc"
   s.add_development_dependency "rspec", "~> 2.12"
